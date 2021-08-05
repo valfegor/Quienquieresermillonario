@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../Img/Qqsmchile2019.webp");
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    background-repeat: no-repeat;
+    align-items: center;
+    min-height:100vh;
+}
+
+.contenedor{
+    width:940px;
+    background-color:#fff;
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0,0.2);
+    min-height: 350px;
+    padding:80px 90px;
+    border-radius:15px;
+    display:flex;
+}
+
+.ladoizquierdo , .ladoderecho{
+    width:50%;
+}
+
+.ladoizquierdo img {
+    height:300px;
+    width:300px;
+}
+
+.ladoderecho h1{
+    color:purple;
+}
+
+.ladoderecho h2 {
+    color:#444;
+    margin: 20px auto 10px;
+    font-size: 25px;
+}
+
+.ladoderecho ul {
+    color: #444;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: 600;
+    list-style: circle;
+    list-style-position: inside;
+
+}
+
+
+.ladoderecho a{
+    background-color:purple;
+    border-radius: 100px;
+    color:#fff;
+    font-weight: 600;
+    width:100%;
+    display:inline-block;
+    text-align: center;
+    padding:15px 0;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.ladoderecho ul li {
+    margin-top:5px;
+}
+
+
+/*
+Inicio de la pagina de preguntas
+*/
+
+.caja{
+    background-color:#fff;
+    border-radius:10px;
+    box-shadow: 0 0 50px 0 rgba(0,0,0,0.2);
+    min-height: 350px;
+    width:640px;
+    padding:50px;
+}
+
+.titulo {
+    border-bottom: 1px solid #464646;
+    color: #464646;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+
+}
+
+.header{
+    margin-bottom: 30px;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.cajapuntos , .cajatiempo , .cajadinero{
+    border-radius: 100px;
+    padding:10px 15px;
+    border:1px solid #444;
+    color: #444;
+}
+
+.cajapreguntas{
+    background-color: purple;
+    color: #fff;
+    border-radius:10px;
+    padding:10px 15px;
+}
+
+.cajaopciones {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 0;
+    grid-gap: 15px;
+}
+
+.cajaopciones span {
+    background-color:#ccc;
+    border-radius:10px;
+    color: #444;
+    border:1px solid #444;
+    padding:10px 15px;
+}
+
+.cajaopciones span.correcto{
+    background-color: green;
+    border-color: #00ab00;
+    color: #fff;
+}
+
+.cajaopciones span.incorrecto{
+    background-color: red;
+    border-color: red;
+    color: #fff;
+}
+
+footer{
+    background:#111;
+    height:auto;
+    width:100vw;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
+    color: var(--textoblanco);
+
+}
+
+.footer-content {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin:10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin:1rem 0 3rem 0 ;
+
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: var(--textoblanco);
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition:color .4s ease;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+.footer-bottom {
+    background:#000;
+    width:100vw;
+    padding:20px 0 ;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 20px;
+    text-transform: capitalize;
+
+}
+
+
+/*
+Resultado*/
+
+.resultado {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 15px;
+    font-size: 20px;
+}
+
+.resultado span {
+    font-weight: 600;
+}
+
+.Link{
+    text-decoration: none;
+    color: white;
+    margin-top: 200px;
+}

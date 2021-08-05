@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <audio src="./assets/Mp3/Theme Quien Quiere Ser Millonario_50k.mp3" autoplay="true"></audio>
+</head>
+<body>
+    <div class="caja" id="preguntaScreen">
+        <div class="titulo">
+            Quien quiere ser millonario
+        </div>
+        <div class="header">
+            <div class="cajapuntos" id ="cajapuntos">Puntaje: 00</div>
+            <div class="cajadinero" id ="cajadinero">Dinero acumulado $00</div>
+                <div class="cajatiempo">tiempo : <span id="cajatiempo"></span></div>
+            </div>
+            <div class="cajapreguntas" id="titulo">
+                
+            </div>
+            <div class="cajaopciones">
+                <span id="span1" data-opt="1" class="opcion"></span>
+                <span id="span2" data-opt="2" class="opcion"></span>
+                <span id="span3" data-opt="3" class="opcion"></span>
+                <span id="span4" data-opt="4" class="opcion"></span>
+            </div>
+            <button type="button" class="btn btn-danger" id="siguiente">siguiente</button>
+            <button type="button" class="btn btn-danger" id="cincuenta">50/50</button>
+            <button type="button" class="btn btn-danger" id="llamada">Hot Call</button>
+            <button type="button" class="btn btn-danger" id="finalizar">Retirarme =(</button>
+        
+    </div>
+
+    <div class="caja" style="display: none;" id="respuestaScreen">
+        <div class="titulo">
+            Quien Quiere Ser Millonario Resident Evil Resultado
+        </div>
+        <div class="resultado">
+            <label for="">Intentos</label>
+            <span id="preguntastotales"></span>
+            <label for="">Dinero</label>
+            <span class="dinero" id="dinero"></span>
+            <label for="">intentos</label>
+            <span class="correctas" id="correctiyo"></span>
+            <button type="button" class="btn btn-danger botonsito" ><a class = "Link" href="./index.html">Jugar de nuevo</a></button>
+            
+        </div>
+    </div>
+    
+    <script src="./assets/Js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./assets/Js/jquery-3.5.1.min.js"></script>
+    
+</body>
+</html>
